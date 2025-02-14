@@ -1,0 +1,7 @@
+```html
+<div class="flex">
+  <div class="bg-red-500 p-4 w-1/2"></div>
+  <div class="bg-blue-500 p-4 w-1/2"></div>
+</div>
+```
+This code snippet uses Tailwind's `flex` utility class to create a flexbox container.  The two inner divs each take up half the width of the container using `w-1/2`. However, if you add some content to these divs that causes them to overflow their allotted space, you will find the flexbox container expands horizontally. This unexpected behavior can be troublesome when trying to achieve a fixed-width layout.
