@@ -1,0 +1,7 @@
+```html
+<div class="flex">
+  <div class="bg-red-500 p-4 w-1/2 flex-shrink-0"></div>
+  <div class="bg-blue-500 p-4 w-1/2 flex-shrink-0"></div>
+</div>
+```
+Adding `flex-shrink-0` to the inner divs prevents them from shrinking below their specified width. This ensures that the container respects its own width and doesn't expand unexpectedly, even if the inner elements' content overflows.
